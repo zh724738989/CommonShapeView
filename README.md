@@ -182,4 +182,34 @@ app:csb_drawablePosition="left"    图片位置（通过android:drawableLeft等�
                 app:cv_view_background_color="@color/colorAccent" />
 
  ## 效果如下：
-![image](https://raw.githubusercontent.com/zh724738989/CommonShapeView/0.0.2/QQ20180827-170057%402x.png)
+![image](https://raw.githubusercontent.com/zh724738989/CommonShapeView/0.0.2/QQ20180827-170355%402x.png)   
+
+
+## 属性说明   
+
+app:cv_is_dash_line_bottom="true"  底部显示虚线    
+app:cv_is_dash_line_left="true"    左边显示虚线    
+app:cv_is_dash_line_right="true"   右边显示虚线    
+app:cv_is_dash_line_top="true"     顶部显示虚线    
+app:cv_dash_line_colo    虚线颜色    
+app:cv_dash_line_gap     虚线间距   
+app:cv_dash_line_height="2dp"   虚线高度   
+app:cv_dash_line_length="10dp"  一截虚线的长度   
+app:cv_is_semicircle_bottom="true"  底部显示半圆    
+app:cv_is_semicircle_left="true"    左边显示半圆     
+app:cv_is_semicircle_right="true"   右边显示半圆     
+app:cv_is_semicircle_top="true"     顶部显示半圆     
+app:cv_dash_semicircle_margin_left="80dp"     顶部和底部第一个半圆距离左边的距离    
+app:cv_dash_semicircle_margin_top="30dp"      左边和右边第一个半圆距离顶部的距离     
+app:cv_dash_semicircle_num_x="2"              顶部和底部的半圆个数    
+app:cv_dash_semicircle_num_y="1"              左边和右边半圆个数    
+app:cv_semicircle_stoken_color="#ffffff"      半圆边框颜色    
+app:cv_semicircle_color="#000000"    半圆背景色    
+app:cv_semicircle_gap="50dp"   半圆间距     
+app:cv_semicircle_radius="20dp"   半圆半径    
+app:cv_frame_corner_radius="6dp"  控件边框圆角半径    
+app:cv_frame_stroke_color="@color/colorPrimaryDark"   控件边框颜色    
+app:cv_frame_stroke_width="0.5dp"  控件边框宽度    
+app:cv_view_background_color="@color/colorAccent"   控件背景颜色   
+
+
