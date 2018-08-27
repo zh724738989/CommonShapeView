@@ -112,5 +112,5 @@ Android中需要指定button、TextView、布局（LinearLayout等）边框、�
                 
     效果如下：
           
-      ![Image discription](http://github.com/zh724738989/CommonShapeView/raw/master/QQ20180827-170057@2x.png)
+      ![Image discription](https://github.com/zh724738989/CommonShapeView/blob/0.0.2/QQ20180827-170057%402x.png)
      
