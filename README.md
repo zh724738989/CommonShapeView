@@ -1,8 +1,8 @@
-### CommonShapeView
+# CommonShapeView
 Android中需要指定button、TextView、布局（LinearLayout等）边框、圆角等属性时，需要在drawable文件夹中定义shape文件，当需要点击效果的时候，需要去定义select文件。随着版本的迭代，shape、select文件会越来越多，导致drawable越来越臃肿，并且这些文件可能极度相似（也许就一个颜色值、一个圆角角度不一样）。为了解决这样的问题，本人定义了2个自定义控件。
 
 
-##适用于button、TextView的自定义控件CommonShapeButton，使用如下
+## 适用于button、TextView的自定义控件CommonShapeButton，使用如下
 
             <com.zh.custom_view.commonshapeview.CommonShapeButton
                 android:layout_width="match_parent"
@@ -110,11 +110,12 @@ Android中需要指定button、TextView、布局（LinearLayout等）边框、�
                 app:csb_strokeColor="@color/colorAccent"
                 app:csb_strokeWidth="2dp" />
                 
- ##效果如下：
+ ## 效果如下：
 ![image](https://raw.githubusercontent.com/zh724738989/CommonShapeView/0.0.2/QQ20180827-170057%402x.png)
     
 
-##属性说明
-app:csb_cornerPosition="bottomLeft|bottomRight"     指定圆角位置bottomLeft、bottomRight、topLeft、topRight;若不指定则4个角都是圆角。
-app:csb_cornerRadius="10dp"    圆角度数
-app:csb_fillColor="#FFB366"    控件背景颜色
+## 属性说明
+app:csb_cornerPosition="bottomLeft|bottomRight"     指定圆角位置bottomLeft、bottomRight、topLeft、topRight;若不指定则4个角都是圆角。  
+app:csb_cornerRadius="10dp"       圆角度数   
+app:csb_fillColor="#FFB366"       控件背景颜色  
+
