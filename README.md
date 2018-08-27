@@ -126,11 +126,11 @@ Android中需要指定button、TextView、布局（LinearLayout等）边框、�
                 app:csb_strokeColor="@color/colorAccent"
                 app:csb_strokeWidth="2dp" />
                 
- ## 效果如下：
+ ### 效果如下：
 ![image](https://raw.githubusercontent.com/zh724738989/CommonShapeView/0.0.2/QQ20180827-170057%402x.png)
     
 
-## 属性说明
+### 属性说明
 app:csb_cornerPosition="bottomLeft|bottomRight"     指定圆角位置bottomLeft、bottomRight、topLeft、topRight;若不指定则4个角都是圆角。  
 app:csb_cornerRadius="10dp"       圆角度数（圆角度数增大，可设置半圆）  
 app:csb_fillColor="#FFB366"       控件背景颜色   
@@ -181,11 +181,11 @@ app:csb_drawablePosition="left"    图片位置（通过android:drawableLeft等�
                 app:cv_semicircle_radius="20dp"
                 app:cv_view_background_color="@color/colorAccent" />
 
- ## 效果如下：
+ ### 效果如下：
 ![image](https://raw.githubusercontent.com/zh724738989/CommonShapeView/0.0.2/QQ20180827-170355%402x.png)   
 
 
-## 属性说明   
+### 属性说明   
 
 app:cv_is_dash_line_bottom="true"  底部显示虚线    
 app:cv_is_dash_line_left="true"    左边显示虚线    
