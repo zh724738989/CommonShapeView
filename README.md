@@ -111,6 +111,4 @@ Android中需要指定button、TextView、布局（LinearLayout等）边框、�
                 app:csb_strokeWidth="2dp" />
                 
     效果如下：
-          
-      ![avatar](https://raw.githubusercontent.com/zh724738989/CommonShapeView/0.0.2/QQ20180827-170057%402x.png)
-     
+     <img src="https://raw.githubusercontent.com/zh724738989/CommonShapeView/0.0.2/QQ20180827-170057%402x.png" width="40%" height="40%">
