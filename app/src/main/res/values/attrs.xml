@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CommonShapeButton">
+        <attr name="csb_shapeMode" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="line" value="2" />
+            <enum name="ring" value="3" />
+        </attr>
+        <attr name="csb_fillColor" format="color" />
+        <attr name="csb_pressedColor" format="color" />
+        <attr name="csb_strokeColor" format="color" />
+        <attr name="csb_strokeWidth" format="dimension" />
+        <attr name="csb_cornerRadius" format="dimension" />
+        <attr name="csb_cornerPosition">
+            <flag name="topLeft" value="1" />
+            <flag name="topRight" value="2" />
+            <flag name="bottomRight" value="4" />
+            <flag name="bottomLeft" value="8" />
+        </attr>
+        <attr name="csb_activeEnable" format="boolean" />
+        <attr name="csb_drawablePosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+        <attr name="csb_startColor" format="color" />
+        <attr name="csb_endColor" format="color" />
+        <attr name="csb_orientation" format="enum">
+            <enum name="TOP_BOTTOM" value="0" />//上到下
+            <enum name="TR_BL" value="1" />//右上到左下
+            <enum name="RIGHT_LEFT" value="2" />//右到左
+            <enum name="BR_TL" value="3" />//右下到左上
+            <enum name="BOTTOM_TOP" value="4" />//下到上
+            <enum name="BL_TR" value="5" />//左下到右上
+            <enum name="LEFT_RIGHT" value="6" />//左到右
+            <enum name="TL_BR" value="7" />//左上到右下
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CommonLinearLayout">
+        <attr name="cv_semicircle_gap" format="dimension|reference" />
+        <attr name="cv_semicircle_radius" format="dimension|reference" />
+        <attr name="cv_semicircle_color" format="color|reference" />
+        <attr name="cv_semicircle_stoken_color" format="color|reference" />
+        <attr name="cv_dash_line_length" format="dimension|reference" />
+        <attr name="cv_dash_line_gap" format="dimension|reference" />
+        <attr name="cv_dash_line_height" format="dimension|reference" />
+        <attr name="cv_dash_line_color" format="color|reference" />
+        <attr name="cv_is_semicircle_top" format="boolean|reference" />
+        <attr name="cv_is_semicircle_bottom" format="boolean|reference" />
+        <attr name="cv_is_semicircle_left" format="boolean|reference" />
+        <attr name="cv_is_semicircle_right" format="boolean|reference" />
+        <attr name="cv_is_dash_line_top" format="boolean|reference" />
+        <attr name="cv_is_dash_line_bottom" format="boolean|reference" />
+        <attr name="cv_is_dash_line_left" format="boolean|reference" />
+        <attr name="cv_is_dash_line_right" format="boolean|reference" />
+        <attr name="cv_dash_line_margin_top" format="dimension|reference" />
+        <attr name="cv_dash_line_margin_bottom" format="dimension|reference" />
+        <attr name="cv_dash_line_margin_left" format="dimension|reference" />
+        <attr name="cv_dash_line_margin_right" format="dimension|reference" />
+        <attr name="cv_dash_semicircle_num_x" format="integer|reference" />
+        <attr name="cv_dash_semicircle_num_y" format="integer|reference" />
+        <attr name="cv_dash_semicircle_margin_left" format="dimension|reference" />
+        <attr name="cv_dash_semicircle_margin_top" format="dimension|reference" />
+        <attr name="cv_frame_stroke_width" format="dimension|reference" />
+        <attr name="cv_frame_corner_radius" format="dimension|reference" />
+        <attr name="cv_frame_stroke_color" format="color|reference" />
+        <attr name="cv_view_background_color" format="color|reference" />
+    </declare-styleable>
+</resources>
